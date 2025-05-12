@@ -1,11 +1,13 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
-nav: false
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+permalink: /cv/
+nav: true
+nav_order: 3
 ---
+
+
+<iframe src="{{ '/assets/pdf/Adam_Lucas_CV.pdf' | relative_url }}" width="100%" height="800px" style="border: none;">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="{{ '/assets/pdf/Adam_Lucas_CV.pdf' | relative_url }}">Download CV</a>.
+</iframe>
