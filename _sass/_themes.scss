@@ -155,3 +155,46 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+div.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 10px;
+  background-color: #333;
+}
+
+div.scroll-gallery figure {
+  position: relative;   /* needed for absolute positioning of caption */
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+div.scroll-gallery img {
+  height: 600px;        /* uniform size */
+  width: 300;
+  display: block;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Caption overlay */
+div.scroll-gallery figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  opacity: 0;            /* hidden by default */
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 0 0 6px 6px; /* matches image corners */
+}
+
+/* Show on hover */
+div.scroll-gallery figure:hover figcaption {
+  opacity: 1;
+}

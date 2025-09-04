@@ -7,22 +7,18 @@ subtitle:
 profile:
   align: right
   image: profile_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: False # crops the image to make it circular
   more_info: >
-    <p>Volcanology 205</p>
-    <p>University of Oregon</p>
-    <p>Eugene, Oregon</p>
+    Volcanology 205<br>
+    University of Oregon<br>
+    Eugene, Oregon<br>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am an MSc student studying glaciology and oceanography in the Earth Sciences department at the University of Oregon, advised by David Sutherland. My research interests include: 
-* Ice-ocean interactions
-* The tidewater glacier cycle
-* Numerical modeling of the cryosphere
+I am an MSc student studying glaciology and oceanography in the Earth Sciences department at the University of Oregon, advised by Dave Sutherland. I am interested in exploring glacier, ocean, and sediment dynamics using field observations, models, and remote sensing!<br> 
 
-In 2024, I finished my BS in environmental science with minors in math and geology at Appalachian State University. My undergraduate thesis is titled "Modeling the Role of Frontal Ablation in the 21st Century Evolution of Lake-Terminating Glaciers on the Juneau Icefield, Alaska, USA".
 
 
